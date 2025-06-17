@@ -1,0 +1,142 @@
+body {
+	background-color: #EDE8D0;
+	font-family: 'Quicksand', sans-serif;
+	color: #1e1e1e;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0 20px
+}
+/*Logo adaptations*/
+.logo {
+	width: 120px;
+	height: 120px;
+}
+.head_wrapper {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	gap: 40px;
+}
+/* Nav bar elements */
+ul{
+list-style-type: none;
+margin: 0;
+padding: 13px;
+background-color: #3a5146;
+display: flex;
+align-items: center;
+border-radius: 12px;
+}
+
+li.left {
+margin-right: 20px;
+}
+li.right {
+margin-left: auto;
+}
+
+li.left a{
+	color: white;
+	font-weight: 500;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 12px;
+	transition: background-color 1s ease;
+}
+
+li.left a:hover {
+background-color:  #C8102e;
+}
+li.right a{
+  color: white;
+  font-weight: 600;
+  background-color: #3a5146;
+  padding: 10px 40px;
+  border-radius: 12px;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+
+li.right a:hover{
+background-color: #C8102e;
+}
+/* Nav bar elements  finish*/
+
+
+h2,h3 {
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #3a5146;
+}
+h1 {
+text-align: center;
+font-family: 'Barlow Condensed', sans-serif;
+letter-spacing: 2px;
+font-size: 3rem;
+text-transform: uppercase;
+}
+.highlight {
+
+color: #C8102E;
+font-weight: 800;
+text-transform: uppercase;
+text-shadow: 1px 1px 0 #3a5146;
+}
+
+h2 {
+color: #3d155f;
+margin-top: 40px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 1.6rem;
+}
+
+p {
+
+max-width: 800px;
+margin: 0 auto 20px;
+font-size: 1rem;
+
+}
+/* Footer*/
+footer {
+
+	text-align: center;
+	padding: 15px;
+	font-size: 0.9rem;
+	background-color: #3a5146;
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	border-radius: 12px;
+
+}
+
+/*pink boxed for content*/
+.content {
+background-color: #f7d799;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+margin: 20px auto;
+max-width: 800px;
+position: relative;
+box-shadow: 8px 8px 0px #e71a89;
+border: 2px solid #3a5146;
+}
+.media {
+background-color: #f7d799;/*colour #f4d9d6 pink optihn;*/
+border-radius: 12px;/*radious of the band*/
+padding: 20px; /*size of the box*/
+margin: 40px auto;/*how separated are they from the rest*/
+max-width: 800px;/* shirnkage, smaller more rectangular*/
+position: relative;
+box-shadow: 8px 8px 0px #e71a89;
+border: 2px solid #3a5146;
+}
+.media p {
+
+font-style: italic;
+color: #333;
+
+
+}
