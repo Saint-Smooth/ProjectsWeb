@@ -114,6 +114,7 @@ footer {
 /*pink boxed for content*/
 .content {
 background-color: #f7d799;
+font-weight: bold;
 border-radius: 12px;
 padding: 20px;
 box-shadow: 0 2px 8px rgb(0,0,0,0.1);
@@ -126,6 +127,7 @@ border: 2px solid #3a5146;
 .media {
 background-color: #f7d799;/*colour #f4d9d6 pink optihn;*/
 border-radius: 12px;/*radious of the band*/
+font-weight: bold;
 padding: 20px; /*size of the box*/
 margin: 40px auto;/*how separated are they from the rest*/
 max-width: 800px;/* shirnkage, smaller more rectangular*/

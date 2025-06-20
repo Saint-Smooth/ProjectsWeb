@@ -126,6 +126,7 @@ footer {
 /*section*/
 .content {
 background-color: #f7d799;
+font-weight: bold; /* conntrol .content font */
 border-radius: 12px;
 padding: 20px;
 box-shadow: 0 2px 8px rgb(0,0,0,0.1);
@@ -139,6 +140,7 @@ border: 2px solid #3a5146;
 
 .media {
 background-color: #f7d799;
+font-weight: bold;
 border-radius: 12px;
 padding: 20px;
 margin: 40px auto;
